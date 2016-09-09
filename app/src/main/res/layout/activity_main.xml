@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="me.mafei.demo.MainActivity"
+    >
+
+  <me.mafei.settingitemview.SettingItemView
+      android:id="@+id/setting_base_rl_notify"
+      android:layout_width="match_parent"
+      android:layout_height="48dp"
+      app:item_title="消息推送"
+      app:item_type="choose"
+      />
+  <View
+      android:layout_width="match_parent"
+      android:layout_height="1px"
+      android:layout_marginLeft="15dp"
+      android:background="#1F000000"
+      />
+  <me.mafei.settingitemview.SettingItemView
+      android:id="@+id/setting_base_rl_font_size"
+      android:layout_width="match_parent"
+      android:layout_height="48dp"
+      app:item_title="字体大小"
+      app:item_type="nomal"
+      />
+</LinearLayout>

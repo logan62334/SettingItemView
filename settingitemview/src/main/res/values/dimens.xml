@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <dimen name="base_setting_insise_text_marginRight">9dp</dimen>
+  <dimen name="base_setting_item_textSize">16.5sp</dimen>
+  <dimen name="base_setting_item_marginLeft">18dp</dimen>
+  <dimen name="base_setting_item_line_marginLeft">15dp</dimen>
+  <dimen name="base_setting_item_height">48dp</dimen>
+  <dimen name="base_setting_item_switch_marginRight">21dp</dimen>
+</resources>
