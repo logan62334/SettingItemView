@@ -64,7 +64,6 @@ bintray {
     version {
       name = '1.0.0-tuts'
       desc = "settingitemview"
-      released = new Date()
       vcsTag = '1.0.0'
     }
 
